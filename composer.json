@@ -1,0 +1,8 @@
+{
+    "name": "stagiaire/bruno",
+    "description": "etude",
+    "type": "projet",
+    "require": {
+        "slim/slim": "^3.12"
+    }
+}
