@@ -1,8 +1,20 @@
 {
-    "name": "stagiaire/bruno",
-    "description": "etude",
-    "type": "projet",
+    "name": "bruno/slim0319",
+    "description": "Projet utilisant Slim Framework en version 3 - Portfolio",
+    "type": "project",
+    "authors": [
+        {
+            "name": "bruno",
+            "email": "bhirmance@gmail.com"
+        }
+    ],
     "require": {
-        "slim/slim": "^3.12"
+        "slim/slim": "^3.12",
+        "squizlabs/php_codesniffer": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
     }
 }
